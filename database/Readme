@@ -1,0 +1,9 @@
+SQL-iterator1.0版本：用于从xlsx文件中直接生成SQL-insert语句,
+它会将xlsx文件中的每一个sheet单独当做一个表，每个sheet的第一行作为schema，
+输出时，他会自动将每个sheet的insert语句单独生成一个sql文件
+
+使用方法：
+         下载该脚本，命名为SQLiterator.py，将你要转换的xlsx文件放到同一目录下，在该目录打开cmd或power shell，输入
+         cmd/windows power shell 内输入: python  SQLiterator.py  你要转换的xlsx文件名
+         比如：“python  SQLiterator.py  example.xlsx”
+         示范用例 example.xlsx 已提供
